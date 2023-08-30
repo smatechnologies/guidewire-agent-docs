@@ -8,4 +8,4 @@ sidebar_label: 'Release notes'
 
 ### 2023 June
 
-:white_check_mark: **UNIX-392**: Fixed an issue in UNIX agent where LSAM shuts down after "Data has not arrived in 600 seconds".
+:white_check_mark: **xXXXXX**: xxxxxxxxx
