@@ -4,9 +4,9 @@ sidebar_label: 'Installation'
 
 # GuideWire Agent Installation
 
->OGuideWire Requires OpCon version 22.8 or greater.
+GuideWire Requires OpCon version 22.8 or greater.
 
->***Before starting an installation, an updated OpCon License key including a GuideWire Agent type must be obtained. Failure to do this will result in a license 
+***Before starting an installation, an updated OpCon License key including a GuideWire Agent type must be obtained. Failure to do this will result in a license 
 Violation when the defined OpCon MFT agent is activated in opCon and will result in OpCon termination if the activated GuideWire Agent is not deactivated within
 the specified time.***
 
