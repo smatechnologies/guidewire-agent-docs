@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'SMA Technologies Help',
-  tagline: 'Guidewire Agent,
+  tagline: 'Guidewire Agent',
   url: 'https://help.smatechnologies.com',
   baseUrl: '/opcon/agents/guidewire/',
   onBrokenLinks: 'throw',
