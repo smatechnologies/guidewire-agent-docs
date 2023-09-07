@@ -43,8 +43,8 @@ To define override values for the selected Batch Process, use the **Arguments** 
 
 Examples :
 The **PurgeAsyncApiRequest** batch process supports an Argument Name **purgeDaysOld** which has an integer Argument Value.
-The **DBConsistencyCheck** batch process supports an Argument Name of **tableNames** which has a string value containing the names of tables (**cc_activity,cc_address**) to check. 
-Currently each table name will need to be entered in a separate task.  
+
+The **DBConsistencyCheck** batch process supports an Argument Name of **tableNames** which has a string value containing the names of tables (**cc_activity,cc_address**) to check. For arguments such as this which accept a list of values, these values should be separated by commas in the 'Argument Value' field. For example, to check two tables titled 'Table 1' and 'Table 2', you should enter **Table 1, Table 2**. 
 
 To add a supported argument, select the green (+) bar in the Arguments section and enter the Argument name and Argument Values.
 Enter the name of the argument and the argument value and select **OK**. The argument information will then be displayed above the gree (+) bar.
