@@ -11,4 +11,7 @@ The SMA GuideWire agent uses asynchronous calls supported by the REST API Framew
 
 The advantage of using OpCon to schedule the Batch Processes is that OpCon can co-ordinate task requirements across GuideWire Systems, non GuideWire systems and External Applications allowing the automation of dependent tasks within workflows.
 
+
 ![OpCon GuideWire Overview](../static/img/Overview.png)
+
+
