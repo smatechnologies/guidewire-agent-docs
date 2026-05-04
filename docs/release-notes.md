@@ -1,11 +1,21 @@
 ---
 sidebar_label: 'Release notes'
+title: GuideWire Agent release notes
+description: "Version history and change details for the GuideWire Agent, including new features, improvements, and bug fixes."
+tags:
+  - Reference
+  - System Administrator
+  - Agents
 ---
 
-# GuideWire Agent Release Notes
+# GuideWire Agent release notes
 
-## Version 22.0.0
+## 22
 
-### 2023 June
+### 22.0.0
 
-:white_check_mark: **xXXXXX**: xxxxxxxxx
+2023 June
+
+### What's new
+
+:eight_spoked_asterisk: **xXXXXX**: xxxxxxxxx

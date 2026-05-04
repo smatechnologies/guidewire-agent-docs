@@ -18,6 +18,11 @@ module.exports = {
         href: 'https://help.smatechnologies.com',
       },
     },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} SMA Technologies.`,
@@ -28,7 +33,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          breadcrumbs: false,
+          breadcrumbs: true,
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
@@ -43,11 +48,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'), 
-      {
-      }
-    ],
-  ],
+  //plugins: [[require.resolve("@cmfcmf/docusaurus-search-local"), {}]],
 };

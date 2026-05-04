@@ -1,17 +1,51 @@
 ---
+slug: '/'
 sidebar_label: 'SMA Guidewire Agent'
+hide_table_of_contents: true
+displayed_sidebar: null
 ---
 
 # SMA GuideWire Agent
 
-The SMA GuideWire Agent, Version 22.0.0, is an OpCon agent that allows OpCon to schedule Batch Processes within the GuideWire PolicyCenter, BillingCenter and ClaimCenter environments.
+The SMA GuideWire Agent is an OpCon agent that allows OpCon to schedule Batch Processes within GuideWire PolicyCenter, BillingCenter, and ClaimCenter environments.
 
+<div style={{display: 'flex', gap: '0.75rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem'}}>
 
-The SMA GuideWire agent uses asynchronous calls supported by the REST API Framework to submit Batch Process requests and to track the status of the submitted requests. Available Batch Processes are retrieved from the PolicyCenter, BillingCenter and ClaimCenter environments and appended to a drop-down list allowing the user to select the appropriate process. If the Batch Process allows the specification of arguments, these arguments can be defined and will be submitted with the request.
+<div style={{flex: '1', minWidth: '160px', display: 'flex', flexDirection: 'column', gap: '0.6rem'}}>
 
-The advantage of using OpCon to schedule the Batch Processes is that OpCon can co-ordinate task requirements across GuideWire Systems, non GuideWire systems and External Applications allowing the automation of dependent tasks within workflows.
+<div style={{background: 'var(--ifm-card-background-color)', border: '1px solid var(--ifm-color-emphasis-400)', borderRadius: '10px', padding: '0.75rem 1rem'}}>
 
+### Overview
 
-![OpCon GuideWire Overview](../static/img/Overview.png)
+- [Overview](./overview.md)
+- [Release Notes](./release-notes.md)
 
+</div>
 
+</div>
+
+<div style={{flex: '1', minWidth: '160px', display: 'flex', flexDirection: 'column', gap: '0.6rem'}}>
+
+<div style={{background: 'var(--ifm-card-background-color)', border: '1px solid var(--ifm-color-emphasis-400)', borderRadius: '10px', padding: '0.75rem 1rem'}}>
+
+### Installation
+
+- [Installation](./installation.md)
+
+</div>
+
+</div>
+
+<div style={{flex: '1', minWidth: '160px', display: 'flex', flexDirection: 'column', gap: '0.6rem'}}>
+
+<div style={{background: 'var(--ifm-card-background-color)', border: '1px solid var(--ifm-color-emphasis-400)', borderRadius: '10px', padding: '0.75rem 1rem'}}>
+
+### Task definition
+
+- [Task definition](./task-definition.md)
+
+</div>
+
+</div>
+
+</div>
