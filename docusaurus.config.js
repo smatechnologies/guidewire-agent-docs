@@ -6,6 +6,9 @@ module.exports = {
   baseUrl: '/opcon/agents/guidewire/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    format: "md",
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'smatechnologies',
   projectName: 'guidewire-agent-docs',
